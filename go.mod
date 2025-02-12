@@ -7,9 +7,9 @@ require (
 	github.com/hashicorp/go-retryablehttp v0.7.7
 	github.com/hashicorp/go-rootcerts v1.0.2
 	github.com/hashicorp/go-secure-stdlib/strutil v0.1.2
-	github.com/stretchr/testify v1.8.0
-	golang.org/x/sys v0.20.0
-	golang.org/x/time v0.0.0-20220922220347-f3bd1da661af
+	github.com/stretchr/testify v1.10.0
+	golang.org/x/sys v0.30.0
+	golang.org/x/time v0.10.0
 )
 
 require (
