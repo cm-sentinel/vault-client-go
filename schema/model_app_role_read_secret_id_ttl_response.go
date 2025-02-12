@@ -7,6 +7,6 @@ package schema
 
 // AppRoleReadSecretIdTtlResponse struct for AppRoleReadSecretIdTtlResponse
 type AppRoleReadSecretIdTtlResponse struct {
-	// Duration in seconds after which the issued secret ID should expire. Defaults to 0, meaning no expiration.
-	SecretIdTtl string `json:"secret_id_ttl,omitempty"`
+	// Duration in seconds after which the issued secret ID expires.
+	SecretIdTtl int32 `json:"secret_id_ttl,omitempty"`
 }

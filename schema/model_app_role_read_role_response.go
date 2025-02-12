@@ -28,7 +28,7 @@ type AppRoleReadRoleResponse struct {
 	SecretIdNumUses int32 `json:"secret_id_num_uses,omitempty"`
 
 	// Duration in seconds after which the issued secret ID expires.
-	SecretIdTtl string `json:"secret_id_ttl,omitempty"`
+	SecretIdTtl int32 `json:"secret_id_ttl,omitempty"`
 
 	// Comma separated string or JSON list of CIDR blocks. If set, specifies the blocks of IP addresses which are allowed to use the generated token.
 	TokenBoundCidrs []string `json:"token_bound_cidrs,omitempty"`

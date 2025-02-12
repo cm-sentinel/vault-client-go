@@ -30968,9 +30968,8 @@
             "description": "Number of times a secret ID can access the role, after which the secret ID will expire."
           },
           "secret_id_ttl": {
-            "type": "string",
-            "description": "Duration in seconds after which the issued secret ID expires.",
-            "format": "duration"
+            "type": "integer",
+            "description": "Duration in seconds after which the issued secret ID expires."
           },
           "token_bound_cidrs": {
             "type": "array",
@@ -31025,9 +31024,8 @@
             "description": "Number of times a secret ID can access the role, after which the secret ID will expire."
           },
           "secret_id_ttl": {
-            "type": "string",
-            "description": "Duration in seconds after which the issued secret ID expires.",
-            "format": "duration"
+            "type": "integer",
+            "description": "Duration in seconds after which the issued secret ID expires."
           },
           "token_bound_cidrs": {
             "type": "array",
@@ -31151,9 +31149,8 @@
             "description": "Number of times a secret ID can access the role, after which the secret ID will expire."
           },
           "secret_id_ttl": {
-            "type": "string",
-            "description": "Duration in seconds after which the issued secret ID expires.",
-            "format": "duration"
+            "type": "integer",
+            "description": "Duration in seconds after which the issued secret ID expires."
           },
           "token_bound_cidrs": {
             "type": "array",
@@ -31229,9 +31226,8 @@
         "type": "object",
         "properties": {
           "secret_id_ttl": {
-            "type": "string",
-            "description": "Duration in seconds after which the issued secret ID should expire. Defaults to 0, meaning no expiration.",
-            "format": "duration"
+            "type": "integer",
+            "description": "Duration in seconds after which the issued secret ID expires."
           }
         }
       },
@@ -31350,9 +31346,8 @@
             "description": "Number of times a secret ID can access the role, after which the secret ID will expire."
           },
           "secret_id_ttl": {
-            "type": "string",
-            "description": "Duration in seconds after which the issued secret ID expires.",
-            "format": "duration"
+            "type": "integer",
+            "description": "Duration in seconds after which the issued secret ID expires."
           }
         }
       },
@@ -31611,9 +31606,8 @@
             "description": "Number of times a secret ID can access the role, after which the secret ID will expire."
           },
           "secret_id_ttl": {
-            "type": "string",
-            "description": "Duration in seconds after which the issued secret ID expires.",
-            "format": "duration"
+            "type": "integer",
+            "description": "Duration in seconds after which the issued secret ID expires."
           }
         }
       },
